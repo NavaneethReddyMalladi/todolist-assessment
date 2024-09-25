@@ -1,0 +1,193 @@
+.login-bg-container {
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  width: 797px;
+  height: 509px;
+  top: 257px;
+  left: 321px;
+  gap: 0px;
+  border-radius: 27.29px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+  border: 2.05px solid;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(19, 18, 18, 0.28) 2.05%,
+    rgba(53, 51, 51, 0) 92.82%
+  );
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+  @media (max-width: 768px) {
+    width: 312px;
+    height: 420px;
+    top: 104px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 27.29px 0px 0px 0px;
+    border: 2.05px 0px 0px 0px;
+    opacity: 0px;
+    width: 312px;
+    height: 420px;
+    top: 104px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 27.29px 0px 0px 0px;
+    border: 2.05px 0px 0px 0px;
+    opacity: 0px;
+    border: 2.05px solid;
+    border-image-source: linear-gradient(
+      139.28deg,
+      rgba(19, 18, 18, 0.28) 2.05%,
+      rgba(53, 51, 51, 0) 92.82%
+    );
+    box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+    box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+  }
+}
+.login-heading {
+  width: 340px;
+  height: 48px;
+  top: 323px;
+  left: 564px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+  @media (max-width: 768px) {
+    width: 227px;
+    height: 48px;
+    top: 128px;
+    left: 66px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+.input1-card {
+  width: 360px;
+  height: 64px;
+  top: 417px;
+  left: 539px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 20px;
+  @media (max-width: 768px) {
+    width: 280px;
+    height: 64px;
+    top: 224px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.login-label {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #f2f2f2;
+  width: 65px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+.login-input {
+  width: 360px;
+  height: 40px;
+  top: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background: #343243;
+  border: 1px solid #d7dfe9;
+  color: #ffffff;
+  @media (max-width: 768px) {
+    width: 280px;
+    height: 40px;
+    top: 24px;
+    gap: 0px;
+    border-radius: 30px;
+    border: 1px;
+    opacity: 0px;
+    background: #343243;
+    border: 1px solid #d7dfe9;
+  }
+}
+.login-Show-password-card {
+  width: 224px;
+  height: 24px;
+  top: 573px;
+  left: 539px;
+  padding: 0px 3px 0px 0px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.login-btn {
+  width: 360px;
+  height: 40px;
+  top: 645px;
+  left: 539px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ffbe38;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  @media (max-width: 768px) {
+    width: 280px;
+    height: 40px;
+    top: 436px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.login-error {
+  width: 266px;
+  height: 16px;
+  top: 701px;
+  left: 539px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #ef4444;
+}

@@ -1,11 +1,28 @@
 /* Write your CSS here */
 .container {
   background-color: #ffc2a0;
-  height: 100vh;
+  min-height:100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.inner-container {
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
 }
 .card {
   background-color: #ffffff;
@@ -20,4 +37,15 @@
   font-size: 36px;
   font-family: roboto;
   font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+.todos-list {
+  padding-left: 0px;
 }

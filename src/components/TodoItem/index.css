@@ -11,7 +11,45 @@
   border-radius: 6px;
   padding: 10px;
   background-color: transparent;
-  border-color:#ff0b37 ;
+  border-color: #ff0b37;
   color: #ff0b37;
+}
+.todo-item {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* padding-right: 30px; */
+}
+.edit-btn {
+  background-color: White;
+  color: #000000;
+  border: 2px solid #ffffff;
+  margin-bottom: 5px;
 
+}
+.delete-btn {
+  background-color: White;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+}
+
+.title {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-right: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+  .delete-btn {
+    font-size: 18px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 32px;
+  }
 }
